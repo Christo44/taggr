@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Link:</strong>
+  <%= @sharelink.link %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @sharelink.comment %>
+</p>
+
+<%= link_to 'Edit', edit_sharelink_path(@sharelink) %> |
+<%= link_to 'Back', sharelinks_path %>
